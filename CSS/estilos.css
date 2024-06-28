@@ -1,0 +1,180 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+#Contenedor{
+    width: 950px;
+    height: 850px;
+    background-image: url("../imagenes/fondo.jpg");
+    margin: 0% auto;
+}
+#Cabecera{
+    width: 950px;
+    height: 104px;
+    background-image: url(../imagenes/sad.jpg);
+}
+#menu{
+    width: 850px;
+    height: 32px;
+    background-image: url(../imagenes/barramenu.jpg);
+    margin: 0% auto;
+}
+#menu ul{
+    list-style: none;
+    margin: 0%;
+    padding: 5px 0 5px 40px;
+}
+#menu ul li{
+    float: left;
+    padding: 3px 30px ;
+    display: block;
+}
+#menu ul li a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+#menu ul li a:hover{
+    color: azure;
+    text-decoration: underline;
+    font-weight: bolder;
+    background-color: blue;
+}
+#banner{
+    width: 845px;
+    height: 230px;
+    margin: 0% auto;
+    background-image: url(../Habitaciones/photo-peru-star-boutique-apartments-lima-91.jfif);
+}
+#contenido{
+    margin: 0% auto;
+    width: 850px;
+    height: 400px;
+    background-color: bisque;
+}
+#contenidoLAI{
+    background-color: rgba(243, 194, 198, 0.39);
+    width: 200px;
+    height: 300px;
+    float: left;
+}
+#contenidoLAD{
+    background-color: rgb(255, 255, 255);
+    float: left;
+    margin: 0% auto;
+    width: 600px;
+    height: 300px;
+}
+.Formatotabla{
+    width: 177px;
+    margin-top: 10px;
+    margin-left: 10px;
+    color: cadetblue;
+    background-color: blanchedalmond;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+.Titulotabla{
+    text-align: center;
+    font-weight: bold;
+}
+#contenidoLAI table a{
+    text-decoration: none;
+    color: black;
+}
+#contenidoLAI table tr{
+    background-color: beige;
+    height: 25px;
+}
+#contenidoLAI table tr:hover{
+    background-color: rgb(193, 159, 224);
+    height: 25px;
+}
+#contenidoLAI table a tr:hover{
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+}
+#contenidoLAI img{
+    margin: 10px 0 10px 10px;
+}
+#contenidoLAD h1{
+    text-align: center;
+    margin-top: 10px;
+}
+.Resaltar{
+    background-color: brown;
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+    text-align: center;
+}
+#contenidoLAD{
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0 10px ;
+    line-height: 2em;
+}
+#Pie{
+    width: 850px;
+    height: 75px;
+    clear: both;
+    background-color: blanchedalmond;
+    margin: 0% auto;
+}
+
+/* Servicio */
+.Servicio {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.Servicio-item {
+    width: 30%;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.Servicio-item h2 {
+    margin-bottom: 10px;
+}
+
+.Servicio-item img {
+    width: 200px;
+    height: 100px;
+
+.Servicio {
+overflow: auto;
+text-align: center;
+}
+    
+.Servicio img {
+        margin: 5px;
+        width: 180px; 
+        height: auto;
+    }
+}
+/* Habitaciones */
+.habitaciones {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.habitacion {
+    width: 30%;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.habitacion img {
+    width: 200px;
+    height: 100px;
+}
+#contenidocontactanos{
+    background-color: rgb(207, 195, 176);
+    float: left;
+    margin: 0% auto;
+    width: 600px;
+    height: 300px;
+}
